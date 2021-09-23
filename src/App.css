@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+body {
+  background: linear-gradient(to right, #050039, #1a173e);
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  margin: 1rem 0 0 0;
+  font-size: 3rem;
+}
+
+h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.radio {
+  max-width: 60em;
+  width: 100%;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2em;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+span {
+  margin: 0.25em;
+  border: 1px solid #fff;
+  border-radius: 10px 5px 10px 5px;
+  padding: 0.25em 0.75em;
+}
+
+span:hover {
+  cursor: pointer;
+  background: linear-gradient(to bottom right, #444d9b, #0f1d9d);
+}
+
+span.selected {
+  background: linear-gradient(to bottom right, #444d9b, #0f1d9d);
+}
+
+.stations {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  width: 100%;
+}
+
+.station {
+  font-size: 1.2em;
+  border: 1px solid #fff;
+  margin: 0.25em;
+  border-radius: 10px 5px 10px 5px;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.station:hover {
+  border-color: #444d9b;
+}
+
+.stationName {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1em;
+  width: 100%;
+  align-items: center;
+  justify-content: start;
+}
+
+.name {
+  width: 100%;
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin: 0 0.25em;
+}
+audio {
+  width: 100%;
+}
+
+.rhap_container.player {
+  background: linear-gradient(to bottom right, #444d9b, #0f1d9d);
+  display: flex;
+  justify-items: center;
+  padding: 0.25em 0.75em;
+  border: 1px solid #fff;
+  border-radius: 10px 5px 10px 5px;
+}
+
+.rhap_stacked .rhap_controls-section {
+  margin-top: 0 !important;
+}
+
+.rhap_controls-section .rhap_volume-section {
+  justify-content: center;
+}
+
+.rhap_controls-section .rhap_volume-controls {
+  justify-content: center;
+}
+
+.rhap_controls-section .rhap_main-controls button[aria-label="Play"] svg path {
+  fill: #fff !important;
+}
+
+.rhap_controls-section .rhap_main-controls button[aria-label="Pause"] svg path {
+  fill: #767676 !important;
+}
