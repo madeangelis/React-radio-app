@@ -1,4 +1,6 @@
-# Tutorial from Aleks Popovic youtube channel link: https://www.youtube.com/watch?v=dNTpGEULK_I&ab_channel=AleksPopovic
+# Tutorial from Aleks Popovic youtube channel 
+
+Link: https://www.youtube.com/watch?v=dNTpGEULK_I&ab_channel=AleksPopovic
 
 ## Getting Started with Create React App
 
